@@ -1,0 +1,1 @@
+physlock -ds -u $(who | awk '{print $1}')
